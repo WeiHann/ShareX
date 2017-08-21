@@ -2,3 +2,4 @@ language: csharp
 solution: ShareX.sln
 install :
   - nuget restore ShareX.sln
+  - msbuild /p:Configuration=Debug ShareX.sln
