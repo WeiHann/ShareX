@@ -1,5 +1,5 @@
 language: csharp
 solution: ShareX.sln
-dotnet :4.0
+dotnet : v4.0
 install :
   - nuget restore ShareX.sln
