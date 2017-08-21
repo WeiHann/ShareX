@@ -1,5 +1,5 @@
 language: csharp
 solution: ShareX.sln
 script :
-  -./.nuget/nuget restore ShareX.sln
-  -./msbuild ShareX.sln
+  -nuget restore ShareX.sln
+  -msbuild ShareX.sln
