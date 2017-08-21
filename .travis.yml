@@ -1,4 +1,4 @@
 language: csharp
 solution: ShareX.sln
 install :
-  -nuget restore ShareX.sln
+  - nuget restore ShareX.sln
