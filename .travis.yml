@@ -3,5 +3,5 @@ solution: ShareX.sln
 dotnet : 1.0.1
 script :
   - dotnet restore ShareX.sln
-  - dotnet msbuild -v
+  - dotnet msbuild /version
   - dotnet msbuild ShareX.sln
