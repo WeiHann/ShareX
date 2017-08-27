@@ -1,8 +1,8 @@
 language: csharp
+os: windows
 solution: ShareX.sln
 dotnet : 1.0.1
-script :
-  - pwd
+script 
   - dotnet restore ShareX.sln
   - dotnet msbuild /version
   - msbuild /version
