@@ -4,4 +4,5 @@ dotnet : 1.0.1
 script :
   - dotnet restore ShareX.sln
   - dotnet msbuild /version
-  - dotnet msbuild ShareX.sln
+  - msbuild /version
+  - msbuild ShareX.sln
